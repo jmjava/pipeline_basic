@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'jenkins-java-maven-docker' }
+    agent { label 'java-mvn-docker' }
     stages {
         stage('build') {
             steps {
