@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'maven:3.3.3' } }
+    agent { jenkins-java-maven-docker }
     stages {
         stage('build') {
             steps {
